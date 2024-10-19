@@ -73,4 +73,3 @@ def summarizer(rawdocs):
     # print("Length Of Summarized Text:", len(summary.split(' ')))
 
     return summary,doc,len(rawdocs.split(' ')),len(summary.split(' '))
-    
